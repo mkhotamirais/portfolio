@@ -4,15 +4,17 @@ import Hero from "./sections/Hero";
 import Experience from "./sections/Experience";
 import Skills from "./sections/Skills";
 import AboutContact from "./sections/AboutContact";
+import AboutMe from "./sections/AboutMe";
 
 export default function App() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen *:font-montserrat">
       <Header />
       <main className="grow">
         <Hero />
-        <Experience />
+        <AboutMe />
         <Skills />
+        <Experience />
         <AboutContact />
       </main>
       <Footer />

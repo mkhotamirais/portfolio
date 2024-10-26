@@ -1,3 +1,14 @@
 export default function Footer() {
-  return <div>Footer</div>;
+  return (
+    <footer className="bg-gray-900 text-white">
+      <div className="container h-16 flex items-center justify-center">
+        <small>
+          &copy; {new Date().getFullYear()}{" "}
+          <a title="github homepage" href="https://mkhotamirais.github.io" className="hover:underline">
+            mkhotami
+          </a>
+        </small>
+      </div>
+    </footer>
+  );
 }

@@ -1,3 +1,7 @@
 export default function Header() {
-  return <div>Header</div>;
+  return (
+    <header className="absolute ">
+      <div className="">menu dropdown when scrolling</div>
+    </header>
+  );
 }
