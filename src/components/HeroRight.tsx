@@ -1,5 +1,6 @@
 import { projects } from "@/lib/projects";
 import { Button } from "./ui/button";
+import { Link } from "react-router-dom";
 
 export default function HeroRight() {
   return (
@@ -23,7 +24,9 @@ export default function HeroRight() {
         ))}
       </div>
       <div className="flex justify-center">
-        <Button variant="link">View More</Button>
+        <Button variant="link">
+          <Link to="/portfolio/projects">View all projects</Link>
+        </Button>
       </div>
     </div>
   );

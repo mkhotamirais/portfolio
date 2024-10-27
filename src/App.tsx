@@ -5,6 +5,7 @@ import Experience from "./sections/Experience";
 import Skills from "./sections/Skills";
 import AboutContact from "./sections/AboutContact";
 import AboutMe from "./sections/AboutMe";
+import NavBottom from "./sections/NavBottom";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <AboutContact />
       </main>
       <Footer />
+      <NavBottom />
     </div>
   );
 }

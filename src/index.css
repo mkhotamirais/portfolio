@@ -5,7 +5,11 @@
 @tailwind utilities;
 
 html {
-  @apply scroll-smooth;
+  @apply scroll-smooth ease-in-out;
+}
+
+#nav-bottom .menu::-webkit-scrollbar {
+  @apply hidden;
 }
 
 .bg-woven {

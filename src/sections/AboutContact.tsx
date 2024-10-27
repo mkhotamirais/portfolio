@@ -8,14 +8,11 @@ const contacts = [
 
 export default function AboutContact() {
   return (
-    <section className="py-16">
+    <section id="contact" className="py-16">
       <div className="prose min-w-full">
         <div className="container grid grid-cols-1 lg:grid-cols-5 gap-8">
           <div className="col-span-1 lg:col-span-2">
-            <div
-              id="contact"
-              className="bg-primary *:text-secondary h-full flex flex-col items-center justify-center py-8 rounded-lg"
-            >
+            <div className="bg-primary *:text-secondary h-full flex flex-col items-center justify-center py-8 rounded-lg">
               <h2 className="mt-0">Contact Me</h2>
               <div className="flex flex-col gap-4 items-center">
                 {contacts.map(({ title, href, Icon }, i) => (

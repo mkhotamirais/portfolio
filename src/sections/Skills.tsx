@@ -8,7 +8,7 @@ export default function Skills() {
   const database = skills.filter((item) => item.type === "database");
 
   return (
-    <section className="min-h-[50vh] py-16">
+    <section id="skills" className="min-h-[50vh] py-16">
       <div className="container *:font-barlowCondensed *:text-center">
         <article className="prose min-w-full">
           <h1 className="">Skills</h1>

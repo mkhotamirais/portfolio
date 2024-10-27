@@ -1,5 +1,6 @@
 import { SiGithub, SiLinkedin, SiGmail } from "react-icons/si";
 import { Button } from "./ui/button";
+import HeroCvBtn from "./HeroCvBtn";
 
 const socials = [
   { title: "Github Homepage", href: "https://github.com/mkhotamirais", Icon: SiGithub },
@@ -31,9 +32,9 @@ export default function HeroLeft() {
           </a>
         ))}
       </div>
-      <div className="flex gap-4 justify-center lg:justify-start">
-        <Button>Download CV</Button>
-        <Button variant={"outline"} asChild>
+      <div className="flex flex-col lg:flex-row gap-4 items-center justify-center lg:justify-start">
+        <HeroCvBtn />
+        <Button variant={"outline"} asChild className="w-44">
           <a href="#contact">Contact me</a>
         </Button>
       </div>

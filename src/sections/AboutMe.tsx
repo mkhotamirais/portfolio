@@ -1,6 +1,6 @@
 export default function AboutMe() {
   return (
-    <section className="bg-woven min-h-[50vh] py-16">
+    <section id="about" className="bg-woven min-h-[50vh] py-16">
       <div className="prose container text-center">
         <h1 className="font-barlowCondensed">About Me</h1>
         <p>
