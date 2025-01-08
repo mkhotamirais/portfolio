@@ -1,0 +1,97 @@
+{
+  "translation": {
+    "header": {
+      "menu": [
+        {"name": "home", "label": "home", "href": "/"},
+        {"name": "project", "label": "project", "href": "/project"},
+        {"name": "about", "label": "about", "href": "/about"},
+        {"name": "skill", "label": "skill", "href": "/skill"},
+        {"name": "experience", "label": "experience", "href": "/experience"}
+      ]
+    },
+    "home": {
+      "hero": {
+        "title": "Hello, I am <span>Mkhotami</span>, a <span>Web Developer</span>",
+        "description": "I Built dynamic, responsive web applications and created seamless user experiences with efficient code."
+      },
+      "project": {
+        "top-title": "Projects",
+        "title": "Building Solutions for Clients and Personal Projects",
+        "detail-btn": "Website Description",
+        "visit-btn": "Visit Website",
+        "project-data": [
+          {
+            "domain-name": "panoramaalam.id",
+            "logo-url": "https://panoramaalam.id/storage/svg/panorama_icon.svg",
+            "company-name": "PT Panorama Alam Bahagia",
+            "website-type": "Travel Agency",
+            "tools": ["PHP", "Laravel", "Blade Icon"],
+            "hosting": "Domainesia - Cpanel",
+            "web-description": "Panorama Alam is a travel agency offering customized tour packages and car rental services in Lombok. The website provides easy navigation and detailed information for seamless trip planning.",
+            "jobdesk": "As a front-end developer, I designed and developed a responsive, user-friendly website for Panorama Alam, ensuring features like tour bookings and car rentals function smoothly across all devices."
+          },
+          {
+            "domain-name": "yukmulau.id",
+            "logo-url": "https://yukmulau.id/wp-content/uploads/2024/12/yukmulau-logo.png",
+            "company-name": "Yukmulau.id",
+            "website-type": "Travel Agency",
+            "tools": ["Wordpress", "Blocksy Theme", "Elementor"],
+            "hosting": "Niagahoster - Hpanel",
+            "web-description": "Yukmulau.id is a travel platform offering convenient booking for trips to the Thousand Islands, including Pulau Harapan and Pulau Kelapa, with a modern, user-friendly interface for seamless vacation planning.",
+            "jobdesk": "As a front-end developer, I designed and built a responsive, user-friendly website for Yukmulau.id, optimizing booking features, galleries, and service descriptions to ensure smooth functionality across all devices."
+          },
+          {
+            "domain-name": "saikindo.co.id",
+            "logo-url": "https://www.saikindo.co.id/logos/ssg-logo-square.png",
+            "company-name": "PT. Saikindo Surya Gumiwang",
+            "website-type": "Company Profile",
+            "tools": ["Javascript", "Reactjs", "Nextjs", "Tailwind", "Shadcn"],
+            "hosting": "Rumahweb - Vercel",
+            "web-description": "A corporate website designed to promote the services of PT. Saikindo Surya Gumiwang, including uniform solutions, electrical services, and event management.",
+            "jobdesk": "My role was as a front-end developer, responsible for designing and developing the overall appearance of the website to ensure it is responsive, modern, and aligned with client requests and user needs."
+          }
+        ]
+      },
+      "about": {
+        "top-title": "About",
+        "title": "Web developer with a focus on effective solutions.",
+        "description": [
+          "I built <span>dynamic, responsive</span> web applications and created seamless user experiences by implementing <span>efficient code</span>, ensuring high performance, scalability, and smooth interactions across various devices and platforms.",
+          "Graduated from UIN Jakarta in 2022 then worked at a photocopy shop while learning web programming from scratch including HTML, CSS, Javascript. Joined Eduwork <span>ReactJS/NodeJS</span> bootcamp, focusing on the <span>MERN Stack</span> including libraries and frameworks like Next.js, Tailwind, Redux, ect. and Have built fullstack MERN projects, <span>REST APIs</span>, Todo List, Fetch Public API. Skilled in MS Office, especially Word and Excel since high school. Committed to advancing my web programming career and continuously <span>exploring new technologies.</span>"
+        ]
+      },
+      "skill": {
+        "top-title": "Skills",
+        "title": "Modern and responsive web development skills."
+      },
+      "experience": {
+        "top-title": "Experiences",
+        "title": "Development, completion, and maintenance of various websites.",
+        "exp-data": [
+          {
+            "job": "Freelance Web Developer",
+            "company": "Mkhotami",
+            "date": "Tangerang, 2024 - Now",
+            "description": "As a freelance web developer, I have successfully delivered various website projects for diverse clients. These include: a travel agency website for Yukmulau <a href='https://yukmulau.id'>yukmulau.id</a> in Kepulauan Seribu, another for Panorama Alam <a a href='https://panoramaalam.id'>panoramaalam.id</a> in Lombok, and a corporate website for Saikindo Surya Gumiwang <a href='https://saikindo.co.id'>saikindo.co.id</a> in Bogor. Each project highlights my expertise in creating responsive and user-friendly web solutions."
+          },
+          {
+            "job": "ReactJs and NodeJs (Online Bootcamp)",
+            "company": "Eduwork.id",
+            "date": "Jogjakarta, 2023 - 2024",
+            "description": "I completed an intensive 5-month React and Node.js program, mastering web development from basics to advanced projects, including building an online store using various React libraries. This enriching experience strengthened my technical skills and ability to deliver scalable, efficient, and user-focused web applications."
+          },
+          {
+            "job": "Ultimate Microsoft Office (Pre-Recorded Videos)",
+            "company": "Udemy",
+            "date": "Bandung, 2021-2022",
+            "description": "I completed an in-depth Udemy course covering Microsoft Office, particularly Word and Excel, from basic features to advanced functions, including data management, formulas, and document formatting. This has greatly improved my proficiency in creating professional documents and spreadsheets."
+          }
+        ]
+      },
+      "contact": {
+        "top-title": "Contact",
+        "title": "Please reach out for further discussion or inquiries."
+      }
+    }
+  }
+}

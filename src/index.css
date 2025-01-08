@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply font-roboto;
+}
+
+.logo,
+h1,
+h2,
+h3 {
+  @apply font-raleway;
+}
+
+p {
+  @apply text-gray-600;
+}
+
+h1.title {
+  @apply text-2xl lg:text-3xl font-bold mb-8 max-w-2xl;
+}
+
+h1.top-title {
+  @apply text-blue-500 text-lg mb-1 font-semibold;
+}
+
+h2.title {
+  @apply text-xl font-semibold mb-1;
+}
+
+#home h1 span,
+#about p span {
+  @apply font-bold;
+}
+
+#experience p a {
+  @apply text-blue-500 hover:underline;
+}
