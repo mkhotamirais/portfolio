@@ -50,8 +50,8 @@ export default function Header() {
               </button>
               <div
                 className={`${
-                  openNav ? "scale-100" : "scale-0"
-                } z-50 origin-top-right fixed left-0 right-0 top-0 bottom-0 h-screen bg-blue-500/90 flex items-center justify-center transition duration-300`}
+                  openNav ? "visible scale-100 opacity-100" : "invisible scale-75 opacity-0"
+                } z-50 fixed left-0 right-0 top-0 bottom-0 h-screen bg-blue-500/90 flex items-center justify-center transition-all duration-300`}
               >
                 <button
                   type="button"

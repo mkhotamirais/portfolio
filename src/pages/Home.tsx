@@ -133,7 +133,7 @@ export default function Home() {
               </div>
 
               <br />
-              <a href="https://saikindo.co.id">
+              <a href={`https://${item["domain-name"]}`}>
                 <Button className="w-full">Visit</Button>
               </a>
             </div>
