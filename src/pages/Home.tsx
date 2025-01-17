@@ -70,7 +70,7 @@ export default function Home() {
           </div>
           <div className="pt-4 flex flex-col items-center sm:flex-row gap-2">
             <div className="relative group">
-              <Button className="lg:px-6 lg:py-3">Download CV</Button>
+              <Button className="lg:px-6 lg:py-3">{t("home.hero.hero-btn.download.0")}</Button>
               <div className="pt-2 scale-0 group-hover:scale-100 origin-top absolute transition w-full">
                 <div className="flex border p-4 bg-white rounded-xl z-50 flex-col items-center gap-2">
                   <a
@@ -78,21 +78,21 @@ export default function Home() {
                     href="https://docs.google.com/document/d/18R2NTNaj5GlKRRw_xSlzLVVWltXp4V6p3-f9dNR8aHY/export?format=pdf"
                     className="flex hover:text-blue-500 items-center"
                   >
-                    <FaDownload className="size-4 mr-2" /> Download
+                    <FaDownload className="size-4 mr-2" /> {t("home.hero.hero-btn.download.1")}
                   </a>
                   <a
                     title="cv mkhotami"
                     href="https://docs.google.com/document/d/18R2NTNaj5GlKRRw_xSlzLVVWltXp4V6p3-f9dNR8aHY/preview"
                     className="flex hover:text-blue-500 items-center"
                   >
-                    <FaEye className="size-4 mr-2" /> Preview
+                    <FaEye className="size-4 mr-2" /> {t("home.hero.hero-btn.download.2")}
                   </a>
                 </div>
               </div>
             </div>
             <a href="#contact">
               <Button className="lg:px-6 lg:py-3" variant="bordered">
-                Contact Me
+                {t("home.hero.hero-btn.contact")}
               </Button>
             </a>
           </div>

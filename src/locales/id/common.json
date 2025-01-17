@@ -7,13 +7,17 @@
         {"name": "about", "label": "tentang", "href": "/about"},
         {"name": "skill", "label": "keahlian", "href": "/skill"},
         {"name": "experience", "label": "pengalaman", "href": "/experience"}
-      ]
+      ],
+       "contact-btn": "Hubungi Saya"
     },
     "home": {
       "hero": {
         "title": "Halo, Saya <span>Mkhotami</span>, seorang <span>Web Developer</span>",
-        "description": "Saya membangun aplikasi web dinamis dan responsif serta menciptakan pengalaman pengguna yang mulus dengan kode yang efisien."
-      },
+        "description": "Saya membangun aplikasi web dinamis dan responsif serta menciptakan pengalaman pengguna yang mulus dengan kode yang efisien.",
+        "hero-btn": {
+          "download": ["Unduh CV", "Unduh", "Pratinjau"],
+          "contact": "Hubungi Saya"
+        }       },
       "project": {
         "top-title": "Proyek",
         "title": "Membangun solusi untuk Klien dan Proyek Pribadi",

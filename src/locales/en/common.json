@@ -7,12 +7,17 @@
         {"name": "about", "label": "about", "href": "/about"},
         {"name": "skill", "label": "skill", "href": "/skill"},
         {"name": "experience", "label": "experience", "href": "/experience"}
-      ]
+      ],
+      "contact-btn": "Contact Me"
     },
     "home": {
       "hero": {
         "title": "Hello, I am <span>Mkhotami</span>, a <span>Web Developer</span>",
-        "description": "I Built dynamic, responsive web applications and created seamless user experiences with efficient code."
+        "description": "I Built dynamic, responsive web applications and created seamless user experiences with efficient code.",
+        "hero-btn": {
+          "download": ["Download CV", "Download", "Preview"],
+          "contact": "Contact Me"
+        } 
       },
       "project": {
         "top-title": "Projects",

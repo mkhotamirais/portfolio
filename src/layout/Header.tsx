@@ -36,7 +36,7 @@ export default function Header() {
                 <a href="https://wa.me/6287766606133">
                   <Button className="flex gap-2 items-center text-sm">
                     <SiWhatsapp size={18} />
-                    Contact Me
+                    {t("header.contact-btn")}
                   </Button>
                 </a>
               </nav>
