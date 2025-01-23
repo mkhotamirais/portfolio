@@ -7,6 +7,7 @@ import { FaGithub, FaLinkedinIn, FaRegEnvelope, FaChevronUp, FaDownload, FaEye }
 import { skills } from "../locales/all/common";
 import SkillCard from "../components/SkillCard";
 import { useEffect, useState } from "react";
+import { Link } from "react-router";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -138,6 +139,11 @@ export default function Home() {
               </a>
             </div>
           ))}
+          <div>
+            <Link to="/projects">
+              <Button className="lg:px-6 lg:py-3">{t("home.project.all-project-btn")}</Button>
+            </Link>
+          </div>
         </div>
       </Section>
 

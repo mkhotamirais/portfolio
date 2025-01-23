@@ -12,6 +12,10 @@ body {
   @apply font-roboto;
 }
 
+.overflow-x-scroll::-webkit-scrollbar {
+  @apply hidden;
+}
+
 .logo,
 h1,
 h2,
@@ -42,4 +46,8 @@ h2.title {
 
 #experience p a {
   @apply text-blue-500 hover:underline;
+}
+
+.badge {
+  @apply text-sm rounded-lg cursor-pointer py-1 px-2 border hover:bg-blue-400 transition-all min-w-max;
 }

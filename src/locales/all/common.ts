@@ -1,4 +1,4 @@
-import { Skill } from "../../types";
+import { ProjectsData, Skill } from "../../types";
 
 export const skills: Skill[] = [
   {
@@ -119,5 +119,71 @@ export const skills: Skill[] = [
     title: "GitHub",
     imgUrl: "https://github.com/prplx/svg-logos/raw/master/svg/Github-Alt.svg",
     type: "fullstack",
+  },
+];
+
+export const projects: ProjectsData[] = [
+  {
+    "domain-name": "panoramaalam.id",
+    "logo-url": "https://panoramaalam.id/storage/svg/panorama_icon.svg",
+    "website-type": "Travel Agency",
+    tools: ["Laravel", "Blade Icon"],
+    hosting: "Domainesia - Cpanel",
+    "web-description":
+      "Panorama Alam is a travel agency offering customized tour packages and car rental services in Lombok. The website provides easy navigation and detailed information for seamless trip planning.",
+  },
+  {
+    "domain-name": "yukmulau.id",
+    "logo-url": "https://yukmulau.id/wp-content/uploads/2024/12/yukmulau-logo.png",
+    "website-type": "Travel Agency",
+    tools: ["Wordpress", "Blocksy Theme", "Elementor"],
+    hosting: "Niagahoster - Hpanel",
+    "web-description":
+      "Yukmulau.id is a travel platform offering convenient booking for trips to the Thousand Islands, including Pulau Harapan and Pulau Kelapa, with a modern, user-friendly interface for seamless vacation planning.",
+  },
+  {
+    "domain-name": "saikindo.co.id",
+    "logo-url": "https://www.saikindo.co.id/logos/ssg-logo-square.png",
+    "website-type": "Company Profile",
+    tools: ["Reactjs", "Nextjs", "Tailwind", "Shadcn"],
+    hosting: "Rumahweb-Vercel",
+    "web-description":
+      "A corporate website designed to promote the services of PT. Saikindo Surya Gumiwang, including uniform solutions, electrical services, and event management.",
+  },
+  {
+    "domain-name": "mkhotamirais.github.io",
+    "logo-url": "https://www.saikindo.co.id/logos/ssg-logo-square.png",
+    "website-type": "Company Profile",
+    tools: ["Reactjs", "Nextjs", "Tailwind", "Shadcn"],
+    hosting: "Rumahweb-Vercel",
+    "web-description":
+      "A corporate website designed to promote the services of PT. Saikindo Surya Gumiwang, including uniform solutions, electrical services, and event management.",
+  },
+  {
+    "domain-name": "mkhotamirais.vercel.app",
+    "logo-url": "https://www.saikindo.co.id/logos/ssg-logo-square.png",
+    "website-type": "Company Profile",
+    tools: ["Reactjs", "Nextjs", "Tailwind", "Shadcn"],
+    hosting: "Rumahweb-Vercel",
+    "web-description":
+      "A corporate website designed to promote the services of PT. Saikindo Surya Gumiwang, including uniform solutions, electrical services, and event management.",
+  },
+  {
+    "domain-name": "mkhotami.vercel.app",
+    "logo-url": "https://www.saikindo.co.id/logos/ssg-logo-square.png",
+    "website-type": "Company Profile",
+    tools: ["Reactjs", "Nextjs", "Tailwind", "Shadcn"],
+    hosting: "Rumahweb-Vercel",
+    "web-description":
+      "A corporate website designed to promote the services of PT. Saikindo Surya Gumiwang, including uniform solutions, electrical services, and event management.",
+  },
+  {
+    "domain-name": "starsmusic.id",
+    "logo-url": "https://www.saikindo.co.id/logos/ssg-logo-square.png",
+    "website-type": "Company Profile",
+    tools: ["Reactjs", "Nextjs", "Tailwind", "Shadcn"],
+    hosting: "Rumahweb-Vercel",
+    "web-description":
+      "A corporate website designed to promote the services of PT. Saikindo Surya Gumiwang, including uniform solutions, electrical services, and event management.",
   },
 ];

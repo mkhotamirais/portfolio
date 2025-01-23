@@ -24,13 +24,14 @@
         "title": "Building Solutions for Clients and Personal Projects",
         "detail-btn": "Website Description",
         "visit-btn": "Visit Website",
+        "all-project-btn": "All Projects",
         "project-data": [
           {
             "domain-name": "panoramaalam.id",
             "logo-url": "https://panoramaalam.id/storage/svg/panorama_icon.svg",
             "company-name": "PT Panorama Alam Bahagia",
             "website-type": "Travel Agency",
-            "tools": ["PHP", "Laravel", "Blade Icon"],
+            "tools": ["Laravel", "Blade Icon"],
             "hosting": "Domainesia - Cpanel",
             "web-description": "Panorama Alam is a travel agency offering customized tour packages and car rental services in Lombok. The website provides easy navigation and detailed information for seamless trip planning.",
             "jobdesk": "As a front-end developer, I designed and developed a responsive, user-friendly website for Panorama Alam, ensuring features like tour bookings and car rentals function smoothly across all devices."
@@ -50,7 +51,7 @@
             "logo-url": "https://www.saikindo.co.id/logos/ssg-logo-square.png",
             "company-name": "PT. Saikindo Surya Gumiwang",
             "website-type": "Company Profile",
-            "tools": ["Javascript", "Reactjs", "Nextjs", "Tailwind", "Shadcn"],
+            "tools": ["Reactjs", "Nextjs", "Tailwind", "Shadcn"],
             "hosting": "Rumahweb - Vercel",
             "web-description": "A corporate website designed to promote the services of PT. Saikindo Surya Gumiwang, including uniform solutions, electrical services, and event management.",
             "jobdesk": "My role was as a front-end developer, responsible for designing and developing the overall appearance of the website to ensure it is responsive, modern, and aligned with client requests and user needs."

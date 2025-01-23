@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import Home from "./pages/Home";
 import Header from "./layout/Header";
 import Footer from "./layout/Footer";
+import Projects from "./pages/Projects";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
         <main className="grow">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
           </Routes>
         </main>
         <Footer />
