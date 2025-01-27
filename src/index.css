@@ -51,3 +51,11 @@ h2.title {
 .badge {
   @apply text-sm rounded-lg cursor-pointer py-1 px-2 border hover:bg-blue-400 transition-all min-w-max;
 }
+
+.acc-project-desc {
+  height: 0;
+}
+
+.acc-project-desc.active {
+  height: calc-size(auto, size);
+}
