@@ -98,6 +98,9 @@
         "top-title": "Contact",
         "title": "Please reach out for further discussion or inquiries."
       }
+    },
+    "other": {
+      "no-result": "No result found"
     }
   }
 }

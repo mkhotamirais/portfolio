@@ -186,6 +186,33 @@ export const projects: ProjectsData[] = [
     "web-description":
       "A corporate website designed to promote the services of PT. Saikindo Surya Gumiwang, including uniform solutions, electrical services, and event management.",
   },
+  {
+    "domain-name": "starsmusic.id",
+    "logo-url": "https://www.saikindo.co.id/logos/ssg-logo-square.png",
+    "website-type": "Company Profile",
+    tools: ["Reactjs", "Nextjs", "Tailwind", "Shadcn"],
+    hosting: "Rumahweb-Vercel",
+    "web-description":
+      "A corporate website designed to promote the services of PT. Saikindo Surya Gumiwang, including uniform solutions, electrical services, and event management.",
+  },
+  {
+    "domain-name": "vite-appwrite.vercel.app",
+    "logo-url": "https://www.saikindo.co.id/logos/ssg-logo-square.png",
+    "website-type": "Company Profile",
+    tools: ["Reactjs", "Nextjs", "Tailwind", "Shadcn"],
+    hosting: "Rumahweb-Vercel",
+    "web-description":
+      "A corporate website designed to promote the services of PT. Saikindo Surya Gumiwang, including uniform solutions, electrical services, and event management.",
+  },
+  {
+    "domain-name": "next-publicapi.vercel.app",
+    "logo-url": "https://www.saikindo.co.id/logos/ssg-logo-square.png",
+    "website-type": "Company Profile",
+    tools: ["Reactjs", "Nextjs", "Tailwind", "Shadcn"],
+    hosting: "Rumahweb-Vercel",
+    "web-description":
+      "A corporate website designed to promote the services of PT. Saikindo Surya Gumiwang, including uniform solutions, electrical services, and event management.",
+  },
 ];
 
 // export const projectsList = [

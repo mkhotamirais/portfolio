@@ -98,6 +98,9 @@
         "top-title": "Kontak",
         "title": "Silakan menghubungi untuk diskusi lebih lanjut atau pertanyaan."
       }
+    },
+    "other": {
+      "no-result": "Hasil tidak ditemukan"
     }
   }
 }
