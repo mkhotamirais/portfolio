@@ -8,6 +8,7 @@ import { skills } from "../locales/all/common";
 import SkillCard from "../components/SkillCard";
 import { useEffect, useState } from "react";
 import { Link } from "react-router";
+import { Helmet } from "react-helmet-async";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -37,6 +38,17 @@ export default function Home() {
 
   return (
     <>
+      <Helmet>
+        <title>Mkhotami - Portfolio | Web Developer React, Next, Laravel and Wordpress</title>
+        <meta
+          name="description"
+          content="Mkhotami is a web developer who builds dynamic, responsive web applications and creates seamless user experiences with efficient code."
+        />
+        <meta
+          name="keywords"
+          content="mkhotami, mkhotami portfolio, mkhotami rais, mkhotami web developer, mkhotami react, mkhotami next, mkhotami laravel, mkhotami wordpress"
+        />
+      </Helmet>
       {/* hero */}
       <Section id="home" className="relative">
         <div className="flex gap-8 lg:gap-16 absolute left-1/2 top-1/2 -translate-x-1/2 opacity-5">
@@ -195,11 +207,11 @@ export default function Home() {
         <h1 className="top-title">{t("home.contact.top-title")}</h1>
         <h1 className="title">{t("home.contact.title")}</h1>
         <div className="space-y-4 text-lg text-blue-500">
-          <a href="mailto:tami01.job@gmail.com" className="w-fit flex gap-2 items-center hover:underline">
+          <a href="https://mailto:tami01.job@gmail.com" className="w-fit flex gap-2 items-center hover:underline">
             <FaRegEnvelope size={24} />
             tami01.job@gmail.com
           </a>
-          <a href="wa.me/6287766606133" className="w-fit flex gap-2 items-center hover:underline">
+          <a href="https://wa.me/6287766606133" className="w-fit flex gap-2 items-center hover:underline">
             <SiWhatsapp size={24} />
             087766606133
           </a>
