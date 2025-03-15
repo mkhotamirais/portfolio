@@ -101,6 +101,16 @@
     },
     "other": {
       "no-result": "No result found"
+    },
+    "meta": {
+      "home": {
+        "title": "Mkhotami Portfolio - Web Developer | React, Laravel, WordPress",
+        "description": "Mkhotami is a Web Developer who builds modern websites using React, Laravel, and WordPress. Focused on performance, responsiveness, and user experience."
+      },
+      "projects": {
+        "title": "Mkhotami Projects | Collection of Works & Web Portfolio",
+        "description": "Explore various projects by Mkhotami in web development using React, Laravel, and WordPress. Built with modern and responsive design."
+      }
     }
   }
 }

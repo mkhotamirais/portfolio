@@ -1,4 +1,4 @@
-import { ProjectsData, Skill } from "../../types";
+import { ProjectsData, Skill } from "./types";
 
 export const skills: Skill[] = [
   {
@@ -125,7 +125,7 @@ export const skills: Skill[] = [
 export const projects: ProjectsData[] = [
   {
     "domain-name": "panoramaalam.id",
-    "logo-url": "https://panoramaalam.id/storage/svg/panorama_icon.svg",
+    "logo-url": "https://panoramaalam.id/storage/img/panorama_icon.svg",
     "website-type": "Travel Agency",
     tools: ["Laravel", "Blade Icon"],
     hosting: "Domainesia - Cpanel",

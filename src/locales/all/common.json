@@ -1,0 +1,12 @@
+{
+    "hero": {
+        "img-me": "https://avatars.githubusercontent.com/u/129278280?v=4"
+    },
+    "links": {
+        "mail": "https://mailto:tami01.job@gmail.com",
+        "github": "https://github.com/mkhotamirais",
+        "linkedin": "https://www.linkedin.com/in/mkhotamirais/",
+        "cv-download-pdf": "https://docs.google.com/document/d/18R2NTNaj5GlKRRw_xSlzLVVWltXp4V6p3-f9dNR8aHY/export?format=pdf",
+        "cv-preview": "https://docs.google.com/document/d/18R2NTNaj5GlKRRw_xSlzLVVWltXp4V6p3-f9dNR8aHY/preview"
+    }
+}

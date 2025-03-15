@@ -101,6 +101,16 @@
     },
     "other": {
       "no-result": "Hasil tidak ditemukan"
+    },
+    "meta": {
+      "home": {
+        "title": "Mkhotami Portfolio - Web Developer | React, Laravel, WordPress",
+        "description": "Mkhotami adalah Web Developer yang membangun website modern dengan React, Laravel, dan WordPress. Fokus pada performa, responsivitas, dan pengalaman pengguna."
+      },
+      "projects": {
+        "title": "Proyek Mkhotami | Kumpulan Karya & Portofolio Web",
+        "description": "Lihat berbagai proyek Mkhotami dalam pengembangan web dengan React, Laravel, dan WordPress. Dibangun dengan desain modern dan responsif."
+      }
     }
   }
 }

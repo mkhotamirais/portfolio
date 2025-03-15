@@ -1,9 +1,10 @@
 import { FaChevronDown, FaMagnifyingGlass } from "react-icons/fa6";
-import { projects } from "../locales/all/common";
 import { ProjectsData } from "../types";
 import React, { ChangeEvent, MouseEvent, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet-async";
+import Layout from "../components/Layout";
+import { projects } from "../lib";
 
 const badges = Array.from(new Set(projects.flatMap((project) => project.tools)));
 const categories = ["all categories", "laravel", "wordpress", "reactjs"];
@@ -52,17 +53,10 @@ export default function Projects() {
   };
 
   return (
-    <>
+    <Layout>
       <Helmet>
-        <title>Mkhotami Projects - Portfolio | Web Developer React, Next, Laravel and Wordpress</title>
-        <meta
-          name="description"
-          content="Mkhotami's Projects contains React, Next, Laravel, Wordpress and other web projects."
-        />
-        <meta
-          name="keywords"
-          content="mkhotami projects, mkhotami portfolio, mkhotami rais, mkhotami web developer, mkhotami react, mkhotami next, mkhotami laravel, mkhotami wordpress"
-        />
+        <title>{t("meta.projects.title")}</title>
+        <meta name="description" content={`${t("meta.projects.description")}`} />
       </Helmet>
       <div className="px-4 max-w-4xl mx-auto py-8">
         {/* Title and Search */}
@@ -171,6 +165,6 @@ export default function Projects() {
           ))}
         </div>
       </div>
-    </>
+    </Layout>
   );
 }
