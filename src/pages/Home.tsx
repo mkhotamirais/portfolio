@@ -108,22 +108,22 @@ export default function Home() {
       {/* project */}
       <section id="project" className="py-16 bg-gray-50">
         <div className="container h-full">
-          <div>
+          <div className="mb-12">
             <h2 className="top-title">{t("home.project.top-title")}</h2>
-            <h1 className="title">{t("home.project.title")}</h1>
+            <h3 className="title">{t("home.project.title")}</h3>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             {projectData.map((item, i) => (
               <div key={i} className="flex flex-col rounded-lg shadow-md hover:shadow-lg transition p-8 bg-white">
                 {/* top logo */}
                 <a href={`https://${item["domain-name"]}`} className="flex gap-2 mb-4 group">
-                  <img src={item["logo-url"]} alt={item["domain-name"]} className="size-12" />
+                  <img src={`${item["logo-url"]}`} alt={item["domain-name"]} className="size-12" />
                   <div>
-                    <h2 className="group-hover:underline font-bold text-xl">{item["domain-name"]}</h2>
+                    <h4 className="group-hover:underline font-bold text-xl">{item["domain-name"]}</h4>
                     <div className="text-sm text-gray-500">{item["company-name"]}</div>
                   </div>
                 </a>
-                <div className="space-y-3 grow">
+                <article className="space-y-3 grow">
                   <div className="text-xs bg-blue-500 text-white rounded-full w-fit px-2 py-[.20rem]">
                     {item["website-type"]}
                   </div>
@@ -131,15 +131,15 @@ export default function Home() {
                     <summary className="text-blue-600 w-fit cursor-pointer">{t("home.project.detail-btn")}</summary>
                     <p>{item["web-description"]}</p>
                   </details>
-                  <div className="text-sm">
+                  <p className="text-sm">
                     <b>Tools :</b> {item["tools"].join(" - ")}
-                  </div>
-                  <div className="text-sm">
+                  </p>
+                  <p className="text-sm">
                     <b>Hosting :</b> {item["hosting"]}
-                  </div>
+                  </p>
 
                   <p>{item["jobdesk"]}</p>
-                </div>
+                </article>
 
                 <br />
                 <a href={`https://${item["domain-name"]}`}>
@@ -159,9 +159,9 @@ export default function Home() {
       {/* about */}
       <section id="about" className="py-16">
         <div className="container h-full">
-          <div>
+          <div className="mb-12">
             <h2 className="top-title">{t("home.about.top-title")}</h2>
-            <h1 className="title">{t("home.about.title")}</h1>
+            <h3 className="title">{t("home.about.title")}</h3>
           </div>
           <article className="max-w-2xl mx-auto text-justify">
             {aboutDescription.map((item, i) => (
@@ -176,9 +176,9 @@ export default function Home() {
       {/* skill */}
       <section id="skill" className="py-16 bg-gray-50">
         <div className="container h-full">
-          <div>
+          <div className="mb-12">
             <h2 className="top-title">{t("home.skill.top-title")}</h2>
-            <h1 className="title">{t("home.skill.title")}</h1>
+            <h3 className="title">{t("home.skill.title")}</h3>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             <SkillCard title="Front-End" skills={feSkills} />
@@ -192,11 +192,11 @@ export default function Home() {
       {/* experience */}
       <section id="experience" className="py-16">
         <div className="container h-full">
-          <div>
+          <div className="mb-12">
             <h2 className="top-title">{t("home.experience.top-title")}</h2>
-            <h1 className="title">{t("home.experience.title")}</h1>
+            <h3 className="title">{t("home.experience.title")}</h3>
           </div>
-          <div className="max-w-4xl mx-auto">
+          <article className="max-w-4xl mx-auto">
             {expData.map((item, i) => (
               <div key={i} className="border-l-4 mb-8 border-blue-500 pl-6 space-y-4">
                 <h2 className="title">{item.job}</h2>
@@ -209,18 +209,18 @@ export default function Home() {
                 </p>
               </div>
             ))}
-          </div>
+          </article>
         </div>
       </section>
 
       {/* contact */}
       <section id="contact" className="py-16 bg-gray-50">
         <div className="container h-full">
-          <div>
+          <div className="mb-12">
             <h2 className="top-title">{t("home.contact.top-title")}</h2>
-            <h1 className="title">{t("home.contact.title")}</h1>
+            <h3 className="title">{t("home.contact.title")}</h3>
           </div>
-          <div className="space-y-4 text-lg text-blue-500 flex flex-col items-center justify-center">
+          <article className="space-y-4 text-lg text-blue-500 flex flex-col items-center justify-center">
             <a href="https://mailto:tami01.job@gmail.com" className="w-fit flex gap-2 items-center hover:underline">
               <FaRegEnvelope size={24} />
               tami01.job@gmail.com
@@ -229,7 +229,7 @@ export default function Home() {
               <SiWhatsapp size={24} />
               087766606133
             </a>
-          </div>
+          </article>
         </div>
       </section>
 

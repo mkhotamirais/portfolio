@@ -9,7 +9,7 @@ export interface ProjectData {
   jobdesk: string;
 }
 
-export type ProjectsData = Omit<ProjectData, "company-name" | "jobdesk">;
+export type ProjectsData = Omit<ProjectData, "company-name" | "jobdesk" | "logo-url">;
 
 export interface Skill {
   title: string;

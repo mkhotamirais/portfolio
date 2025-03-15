@@ -125,7 +125,6 @@ export const skills: Skill[] = [
 export const projects: ProjectsData[] = [
   {
     "domain-name": "panoramaalam.id",
-    "logo-url": "https://panoramaalam.id/storage/img/panorama_icon.svg",
     "website-type": "Travel Agency",
     tools: ["Laravel", "Blade Icon"],
     hosting: "Domainesia - Cpanel",
@@ -134,7 +133,6 @@ export const projects: ProjectsData[] = [
   },
   {
     "domain-name": "yukmulau.id",
-    "logo-url": "https://yukmulau.id/wp-content/uploads/2024/12/yukmulau-logo.png",
     "website-type": "Travel Agency",
     tools: ["Wordpress", "Blocksy Theme", "Elementor"],
     hosting: "Niagahoster - Hpanel",
@@ -143,7 +141,6 @@ export const projects: ProjectsData[] = [
   },
   {
     "domain-name": "saikindo.co.id",
-    "logo-url": "https://www.saikindo.co.id/logos/ssg-logo-square.png",
     "website-type": "Company Profile",
     tools: ["Reactjs", "Nextjs", "Tailwind", "Shadcn"],
     hosting: "Rumahweb-Vercel",
@@ -152,7 +149,6 @@ export const projects: ProjectsData[] = [
   },
   {
     "domain-name": "mkhotamirais.github.io",
-    "logo-url": "https://www.saikindo.co.id/logos/ssg-logo-square.png",
     "website-type": "Company Profile",
     tools: ["HTML", "CSS", "Javascript", "GSAP"],
     hosting: "Rumahweb-Vercel",
@@ -161,7 +157,6 @@ export const projects: ProjectsData[] = [
   },
   {
     "domain-name": "mkhotamirais.vercel.app",
-    "logo-url": "https://www.saikindo.co.id/logos/ssg-logo-square.png",
     "website-type": "Company Profile",
     tools: ["Reactjs", "Nextjs", "Tailwind", "Shadcn"],
     hosting: "Rumahweb-Vercel",
@@ -170,7 +165,6 @@ export const projects: ProjectsData[] = [
   },
   {
     "domain-name": "mkhotami.vercel.app",
-    "logo-url": "https://www.saikindo.co.id/logos/ssg-logo-square.png",
     "website-type": "Company Profile",
     tools: ["Reactjs", "Nextjs", "Tailwind", "Shadcn"],
     hosting: "Rumahweb-Vercel",
@@ -179,7 +173,6 @@ export const projects: ProjectsData[] = [
   },
   {
     "domain-name": "starsmusic.id",
-    "logo-url": "https://www.saikindo.co.id/logos/ssg-logo-square.png",
     "website-type": "Company Profile",
     tools: ["Reactjs", "Nextjs", "Tailwind", "Shadcn"],
     hosting: "Rumahweb-Vercel",
@@ -188,7 +181,6 @@ export const projects: ProjectsData[] = [
   },
   {
     "domain-name": "starsmusic.id",
-    "logo-url": "https://www.saikindo.co.id/logos/ssg-logo-square.png",
     "website-type": "Company Profile",
     tools: ["Reactjs", "Nextjs", "Tailwind", "Shadcn"],
     hosting: "Rumahweb-Vercel",
@@ -197,7 +189,6 @@ export const projects: ProjectsData[] = [
   },
   {
     "domain-name": "vite-appwrite.vercel.app",
-    "logo-url": "https://www.saikindo.co.id/logos/ssg-logo-square.png",
     "website-type": "Company Profile",
     tools: ["Reactjs", "Nextjs", "Tailwind", "Shadcn"],
     hosting: "Rumahweb-Vercel",
@@ -206,7 +197,6 @@ export const projects: ProjectsData[] = [
   },
   {
     "domain-name": "next-publicapi.vercel.app",
-    "logo-url": "https://www.saikindo.co.id/logos/ssg-logo-square.png",
     "website-type": "Company Profile",
     tools: ["Reactjs", "Nextjs", "Tailwind", "Shadcn"],
     hosting: "Rumahweb-Vercel",
@@ -223,14 +213,6 @@ export const projects: ProjectsData[] = [
 //     description: `Saikindo company's website containing the company profile, products, and other services.`,
 //     tools: ["next", "react", "tailwind", "typescript", "shadcn", "zustand"],
 //     imagePath: "/projects/saikindo-shoot-1.jpg",
-//   },
-//   {
-//     title: "Hadin Al Musri`",
-//     href: "https://hadinalmusri.com",
-//     isPrimary: false,
-//     description: `Hadinalmusri school website located in Pagaden Subang, containing the school profile and other information.`,
-//     tools: ["next", "react", "tailwind", "typescript", "shadcn", "zustand"],
-//     imagePath: "/projects/hadinalmusri-shoot-1.jpg",
 //   },
 //   {
 //     title: "Next Jikan",

@@ -28,21 +28,19 @@
         "project-data": [
           {
             "domain-name": "panoramaalam.id",
-            "logo-url": "https://panoramaalam.id/storage/svg/panorama_icon.svg",
+            "logo-url": "/logo-panoramaalam.png",
             "company-name": "PT Panorama Alam Bahagia",
             "website-type": "Travel Agency",
-            "tools": ["Laravel", "Blade Icon"],
-            "hosting": "Domainesia - Cpanel",
+            "tools": ["Laravel", "Cpanel"],
             "web-description": "Panorama Alam adalah biro perjalanan yang menawarkan paket wisata dan layanan sewa mobil di Lombok. Website ini menyediakan navigasi mudah dan informasi lengkap untuk perencanaan liburan yang lancar.",
             "jobdesk": "Sebagai front-end developer, saya merancang dan membangun website responsif dan ramah pengguna untuk Panorama Alam, memastikan fitur seperti pemesanan paket wisata dan sewa mobil berjalan lancar di semua perangkat."
           },
           {
             "domain-name": "yukmulau.id",
-            "logo-url": "https://yukmulau.id/wp-content/uploads/2024/12/yukmulau-logo.png",
+            "logo-url": "/logo-yukmulau.png",
             "company-name": "Yukmulau.id",
             "website-type": "Travel Agency",
             "tools": ["Wordpress", "Blocksy Theme", "Elementor"],
-            "hosting": "Niagahoster - Hpanel",
             "web-description": "Yukmulau.id adalah platform perjalanan yang menawarkan pemesanan mudah untuk wisata ke Kepulauan Seribu, termasuk Pulau Harapan dan Pulau Kelapa, dengan antarmuka modern dan ramah pengguna.",
             "jobdesk": "Sebagai front-end developer, saya merancang dan membangun website responsif dan ramah pengguna untuk Yukmulau.id, mengoptimalkan fitur pemesanan, galeri, dan deskripsi layanan agar berfungsi dengan lancar di semua perangkat."
           },
@@ -51,8 +49,7 @@
             "logo-url": "https://www.saikindo.co.id/logos/ssg-logo-square.png",
             "company-name": "PT. Saikindo Surya Gumiwang",
             "website-type": "Company Profile",
-            "tools": ["Reactjs", "Nextjs", "Tailwind", "Shadcn"],
-            "hosting": "Rumahweb-Vercel",
+            "tools": ["Reactjs", "Nextjs", "Tailwind", "Shadcn", "Vercel"],
             "web-description": "Sebuah website corporate yang dirancang untuk mempromosikan layanan PT. Saikindo Surya Gumiwang, mencakup solusi seragam, kelistrikan, dan acara.",
             "jobdesk": "Peran saya adalah sebagai front-end developer, bertanggung jawab merancang dan mengembangkan keseluruhan tampilan website agar responsif, modern, sesuai permintaan client dan juga kebutuhan pengguna."
           }
