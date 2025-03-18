@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Lang from "../components/Lang";
 import Logo from "../components/Logo";
 import Button from "../components/Button";
 import { SiWhatsapp } from "react-icons/si";
 import { useTranslation } from "react-i18next";
-import { FaBars, FaXmark } from "react-icons/fa6";
+import { FaBars, FaChevronUp, FaXmark } from "react-icons/fa6";
 import { useState } from "react";
 
 interface LayoutProps {
@@ -16,7 +16,19 @@ export default function Layout({ children }: LayoutProps) {
 
   const [openNav, setOpenNav] = useState(false);
 
+  const [show, setShow] = useState(false);
+
   const menuItems = t("header.menu", { returnObjects: true }) as { name: string; label: string }[];
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        setShow(true);
+      } else {
+        setShow(false);
+      }
+    });
+  }, []);
 
   return (
     <React.Fragment>
@@ -84,9 +96,11 @@ export default function Layout({ children }: LayoutProps) {
             </div>
           </div>
         </div>
-      </header>{" "}
+      </header>
+
       {/* main */}
       <main>{children}</main>
+
       {/* footer */}
       <footer className="h-16 border-t">
         <div className="container h-full">
@@ -95,6 +109,29 @@ export default function Layout({ children }: LayoutProps) {
           </div>
         </div>
       </footer>
+
+      {/* scroll to top */}
+      <div className={`${show ? "flex scale-100" : "scale-0"} fixed right-8 lg:right-12 bottom-20 transition`}>
+        <a
+          title="scroll to top"
+          href="#"
+          target="_top"
+          className="z-50 flex hover:bg-gray-100 transition p-2 rounded-full"
+        >
+          <FaChevronUp className="text-2xl text-blue-500 hover:text-blue-400 cursor-pointer" />
+        </a>
+      </div>
+
+      {/* contact whatsapp */}
+      <div className="flex fixed bottom-8 right-8 lg:right-12 z-50">
+        <a href="https://wa.me/6287766606133">
+          <img
+            src="https://raw.githubusercontent.com/grommet/grommet-icons/master/public/img/whatsapp.svg"
+            alt="contact me"
+            className="size-10"
+          />
+        </a>
+      </div>
     </React.Fragment>
   );
 }

@@ -60,8 +60,8 @@ export default function Projects() {
       </Helmet>
       <div className="px-4 max-w-4xl mx-auto py-8">
         {/* Title and Search */}
-        <div className="flex items-center justify-between gap-4 mb-6">
-          <h1 className="text-2xl font-bold">All Projects</h1>
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-6">
+          <h1 className="text-2xl font-bold min-w-max">All Projects</h1>
           <div className="relative flex items-center gap-4 w-full sm:w-64">
             <input
               value={cari}

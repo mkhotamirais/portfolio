@@ -2,9 +2,8 @@ import { useTranslation, Trans } from "react-i18next";
 import Button from "../components/Button";
 import { Exp, ProjectData } from "../types";
 import { SiLaravel, SiWordpress, SiReact, SiWhatsapp } from "react-icons/si";
-import { FaGithub, FaLinkedinIn, FaRegEnvelope, FaChevronUp, FaDownload, FaEye } from "react-icons/fa6";
+import { FaGithub, FaLinkedinIn, FaRegEnvelope, FaDownload, FaEye } from "react-icons/fa6";
 import SkillCard from "../components/SkillCard";
-import { useEffect, useState } from "react";
 import { Link } from "react-router";
 import { Helmet } from "react-helmet-async";
 import Layout from "../components/Layout";
@@ -13,8 +12,6 @@ import common from "../locales/all/common.json";
 
 export default function Home() {
   const { t } = useTranslation();
-
-  const [show, setShow] = useState(false);
 
   const aboutDescription = t("home.about.description", { returnObjects: true }) as string[];
 
@@ -27,16 +24,6 @@ export default function Home() {
 
   const expData = t("home.experience.exp-data", { returnObjects: true }) as Exp[];
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 100) {
-        setShow(true);
-      } else {
-        setShow(false);
-      }
-    });
-  }, []);
-
   return (
     <Layout>
       <Helmet>
@@ -45,7 +32,7 @@ export default function Home() {
       </Helmet>
 
       {/* hero */}
-      <section id="home" className="relative py-16">
+      <section id="home" className="relative py-16 scroll-mt-16">
         <div className="container h-full">
           <div className="flex gap-8 lg:gap-16 absolute left-1/2 top-1/2 -translate-x-1/2 opacity-5">
             <SiReact size={80} />
@@ -106,7 +93,7 @@ export default function Home() {
       </section>
 
       {/* project */}
-      <section id="project" className="py-16 bg-gray-50">
+      <section id="project" className="py-16 bg-gray-50 scroll-mt-16">
         <div className="container h-full">
           <div className="mb-12">
             <h2 className="top-title">{t("home.project.top-title")}</h2>
@@ -157,7 +144,7 @@ export default function Home() {
       </section>
 
       {/* about */}
-      <section id="about" className="py-16">
+      <section id="about" className="py-16 scroll-mt-16">
         <div className="container h-full">
           <div className="mb-12">
             <h2 className="top-title">{t("home.about.top-title")}</h2>
@@ -174,7 +161,7 @@ export default function Home() {
       </section>
 
       {/* skill */}
-      <section id="skill" className="py-16 bg-gray-50">
+      <section id="skill" className="py-16 bg-gray-50 scroll-mt-16">
         <div className="container h-full">
           <div className="mb-12">
             <h2 className="top-title">{t("home.skill.top-title")}</h2>
@@ -190,7 +177,7 @@ export default function Home() {
       </section>
 
       {/* experience */}
-      <section id="experience" className="py-16">
+      <section id="experience" className="py-16 scroll-mt-16">
         <div className="container h-full">
           <div className="mb-12">
             <h2 className="top-title">{t("home.experience.top-title")}</h2>
@@ -214,7 +201,7 @@ export default function Home() {
       </section>
 
       {/* contact */}
-      <section id="contact" className="py-16 bg-gray-50">
+      <section id="contact" className="py-16 bg-gray-50 scroll-mt-16">
         <div className="container h-full">
           <div className="mb-12">
             <h2 className="top-title">{t("home.contact.top-title")}</h2>
@@ -232,29 +219,6 @@ export default function Home() {
           </article>
         </div>
       </section>
-
-      {/* scroll to top */}
-      <div className={`${show ? "flex scale-100" : "scale-0"} fixed right-4 bottom-20 lg:bottom-8 transition`}>
-        <a
-          title="scroll to top"
-          href="#"
-          target="_top"
-          className="z-50 flex hover:bg-gray-100 transition p-2 rounded-full"
-        >
-          <FaChevronUp className="text-2xl text-blue-500 hover:text-blue-400 cursor-pointer" />
-        </a>
-      </div>
-
-      {/* contact whatsapp */}
-      <div className="flex lg:hidden fixed bottom-8 right-4 z-50">
-        <a href="https://wa.me/6287766606133">
-          <img
-            src="https://raw.githubusercontent.com/grommet/grommet-icons/master/public/img/whatsapp.svg"
-            alt="contact me"
-            className="size-10"
-          />
-        </a>
-      </div>
     </Layout>
   );
 }
