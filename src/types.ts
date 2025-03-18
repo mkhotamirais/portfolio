@@ -4,7 +4,6 @@ export interface ProjectData {
   "company-name": string;
   "website-type": string;
   tools: string[];
-  hosting: string;
   "web-description": string;
   jobdesk: string;
 }

@@ -8,7 +8,7 @@ import { projects } from "../lib";
 
 const badges = Array.from(new Set(projects.flatMap((project) => project.tools)));
 const categories = ["all categories", "laravel", "wordpress", "reactjs"];
-const sort = ["asc", "desc"] as const;
+const sort = ["default", "asc", "desc"] as const;
 
 export default function Projects() {
   const { t } = useTranslation();
@@ -17,7 +17,7 @@ export default function Projects() {
   const [selectedBadge, setSelectedBadge] = useState<string[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string>("");
   const [openAcc, setOpenAcc] = useState<number | null>(null);
-  const [selectedSort, setSelectedSort] = useState<(typeof sort)[number]>("asc");
+  const [selectedSort, setSelectedSort] = useState<(typeof sort)[number]>("default");
 
   const filteredProjects = projects
     .filter(
@@ -144,7 +144,7 @@ export default function Projects() {
               key={i}
               onMouseEnter={() => setOpenAcc(i)}
               onMouseLeave={() => setOpenAcc(null)}
-              className="border mb-2 rounded-md p-4 overflow-x-scroll"
+              className="border mb-2 rounded-md p-4 overflow-x-scroll odd:bg-blue-50"
             >
               <div className="title flex items-center justify-between">
                 <div className="">

@@ -121,9 +121,6 @@ export default function Home() {
                   <p className="text-sm">
                     <b>Tools :</b> {item["tools"].join(" - ")}
                   </p>
-                  <p className="text-sm">
-                    <b>Hosting :</b> {item["hosting"]}
-                  </p>
 
                   <p>{item["jobdesk"]}</p>
                 </article>
