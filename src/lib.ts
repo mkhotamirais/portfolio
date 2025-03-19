@@ -131,6 +131,30 @@ export const projects: ProjectsData[] = [
       "Panorama Alam is a travel agency offering customized tour packages and car rental services in Lombok. The website provides easy navigation and detailed information for seamless trip planning.",
   },
   {
+    "domain-name": "ma.nuruliman-sindangkerta.sch.id",
+    "website-type": "School Profile",
+    tools: ["Laravel"],
+    "web-description": "later",
+  },
+  {
+    "domain-name": "ponpes.nuruliman-sindangkerta.sch.id",
+    "website-type": "School Profile",
+    tools: ["Laravel"],
+    "web-description": "later",
+  },
+  {
+    "domain-name": "warung.mkhotami.com",
+    "website-type": "Online Shop",
+    tools: ["Laravel"],
+    "web-description": "later",
+  },
+  {
+    "domain-name": "react-api.mkhotami.com",
+    "website-type": "Online Shop",
+    tools: ["Mongodb", "Express", "React", "Nodejs", "Mysql"],
+    "web-description": "https://react-api-mkhotami.vercel.app",
+  },
+  {
     "domain-name": "yukmulau.id",
     "website-type": "Travel Agency",
     tools: ["Wordpress", "Blocksy Theme", "Elementor"],
@@ -148,22 +172,19 @@ export const projects: ProjectsData[] = [
     "domain-name": "starsmusic.id",
     "website-type": "Company Profile",
     tools: ["Reactjs", "Nextjs", "Tailwind", "Shadcn"],
-    "web-description":
-      "A corporate website designed to promote the services of PT. Saikindo Surya Gumiwang, including uniform solutions, electrical services, and event management.",
+    "web-description": "later",
   },
   {
     "domain-name": "profile.mkhotami.com",
     "website-type": "Company Profile",
     tools: ["Reactjs", "Nextjs", "Tailwind", "Shadcn"],
-    "web-description":
-      "https://profile-mkhotami.vercel.app: A corporate website designed to promote the services of PT. Saikindo Surya Gumiwang, including uniform solutions, electrical services, and event management.",
+    "web-description": "https://profile-mkhotami.vercel.app: later",
   },
   {
     "domain-name": "mkhotamirais.github.io",
     "website-type": "Company Profile",
     tools: ["HTML", "CSS", "Javascript", "GSAP"],
-    "web-description":
-      "A corporate website designed to promote the services of PT. Saikindo Surya Gumiwang, including uniform solutions, electrical services, and event management.",
+    "web-description": "Contekan materi web dasar",
   },
   {
     "domain-name": "react.mkhotami.com",
@@ -181,14 +202,12 @@ export const projects: ProjectsData[] = [
     "domain-name": "vite-appwrite.mkhotami.com",
     "website-type": "Company Profile",
     tools: ["Reactjs", "Nextjs", "Tailwind", "Shadcn"],
-    "web-description":
-      "https://vite-appwrite.vercel.app : A corporate website designed to promote the services of PT. Saikindo Surya Gumiwang, including uniform solutions, electrical services, and event management.",
+    "web-description": "https://vite-appwrite.vercel.app : appwrite",
   },
   {
     "domain-name": "next-publicapi.mkhotami.com",
     "website-type": "Company Profile",
     tools: ["Reactjs", "Nextjs", "Tailwind", "Shadcn"],
-    "web-description":
-      "https://next-publicapi-mkhotami.vercel.app : A corporate website designed to promote the services of PT. Saikindo Surya Gumiwang, including uniform solutions, electrical services, and event management.",
+    "web-description": "https://next-publicapi-mkhotami.vercel.app : nextjs dengan publicapi",
   },
 ];
