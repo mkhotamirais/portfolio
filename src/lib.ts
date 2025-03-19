@@ -151,7 +151,7 @@ export const projects: ProjectsData[] = [
     "web-description": "later",
   },
   {
-    "domain-name": "rentallombok.com",
+    "domain-name": "rentallombok.id",
     "website-type": "Rental Website",
     tools: ["Laravel"],
     "web-description": "later",
