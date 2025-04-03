@@ -157,6 +157,18 @@ export const projects: ProjectsData[] = [
     "web-description": "later",
   },
   {
+    "domain-name": "katanata.com",
+    "website-type": "writing service",
+    tools: ["Wordpress"],
+    "web-description": "later",
+  },
+  {
+    "domain-name": "warungota.com",
+    "website-type": "Online Shop",
+    tools: ["Laravel"],
+    "web-description": "later",
+  },
+  {
     "domain-name": "ma.nuruliman-sindangkerta.sch.id",
     "website-type": "School Profile",
     tools: ["Laravel"],
@@ -169,22 +181,10 @@ export const projects: ProjectsData[] = [
     "web-description": "later",
   },
   {
-    "domain-name": "warung.mkhotami.com",
-    "website-type": "Online Shop",
-    tools: ["Laravel"],
-    "web-description": "later",
-  },
-  {
     "domain-name": "php-basic.mkhotami.com",
     "website-type": "Catatan website",
     tools: ["Php"],
     "web-description": "later",
-  },
-  {
-    "domain-name": "profile.mkhotami.com",
-    "website-type": "Company Profile",
-    tools: ["Reactjs", "Nextjs", "Tailwind", "Shadcn"],
-    "web-description": "https://profile-mkhotami.vercel.app: later",
   },
   {
     "domain-name": "mkhotamirais.github.io",

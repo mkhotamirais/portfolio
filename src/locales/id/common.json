@@ -16,7 +16,7 @@
         "description": "Saya membangun aplikasi web dinamis dan responsif serta menciptakan pengalaman pengguna yang mulus dengan kode yang efisien.",
         "hero-btn": {
           "download": ["Unduh CV", "Unduh", "Pratinjau"],
-          "contact": "Hubungi Saya"
+          "project-btn": "Proyek Saya"
         }
       },
       "project": {

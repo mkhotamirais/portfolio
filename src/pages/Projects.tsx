@@ -1,10 +1,11 @@
-import { FaChevronDown, FaMagnifyingGlass } from "react-icons/fa6";
+import { FaMagnifyingGlass } from "react-icons/fa6";
 import { ProjectsData } from "../types";
 import React, { ChangeEvent, MouseEvent, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet-async";
 import Layout from "../components/Layout";
 import { projects } from "../lib";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const badges = Array.from(new Set(projects.flatMap((project) => project.tools)));
 const categories = ["all categories", "laravel", "wordpress", "reactjs"];
@@ -16,7 +17,7 @@ export default function Projects() {
   const [cari, setCari] = useState("");
   const [selectedBadge, setSelectedBadge] = useState<string[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string>("");
-  const [openAcc, setOpenAcc] = useState<number | null>(null);
+  // const [openAcc, setOpenAcc] = useState<number | null>(null);
   const [selectedSort, setSelectedSort] = useState<(typeof sort)[number]>("default");
 
   const filteredProjects = projects
@@ -58,7 +59,7 @@ export default function Projects() {
         <title>{t("meta.projects.title")}</title>
         <meta name="description" content={`${t("meta.projects.description")}`} />
       </Helmet>
-      <div className="px-4 max-w-4xl mx-auto py-8">
+      <div className="container py-8">
         {/* Title and Search */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-6">
           <h1 className="text-2xl font-bold min-w-max">All Projects</h1>
@@ -134,33 +135,41 @@ export default function Projects() {
           </div>
         </div>
 
+        <br />
+        <hr />
         {/* No result */}
         {filteredProjects.length === 0 && <div className="py-8 italic">{t("other.no-result")}</div>}
 
         {/* Result */}
-        <div className="mt-6">
+        <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-1 sm:gap-2 lg:gap-4">
           {filteredProjects.map((project: ProjectsData, i) => (
             <div
               key={i}
-              onMouseEnter={() => setOpenAcc(i)}
-              onMouseLeave={() => setOpenAcc(null)}
-              className="border mb-2 rounded-md p-4 overflow-x-scroll odd:bg-blue-50"
+              // onMouseEnter={() => setOpenAcc(i)}
+              // onMouseLeave={() => setOpenAcc(null)}
+              className="border rounded-md p-2 overflow-x-scroll"
             >
-              <div className="title flex items-center justify-between">
-                <div className="">
-                  <div className="">
-                    <a href={`https://${project["domain-name"]}`} className="text-blue-500 mr-2">
-                      Visit
-                    </a>
-                    <span className="text-lg font-medium">{project["domain-name"]}</span>
-                  </div>
-                  <div className="text-sm">{project.tools.join(" - ")}</div>
-                </div>
-                <FaChevronDown className={`${openAcc === i ? "rotate-180" : ""} transition-all`} />
+              <div className="title flex flex-col items-center space-y-2">
+                <a
+                  href={`https://${project["domain-name"]}`}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="text-blue-900 hover:underline"
+                >
+                  <h3 className="text-center font-semibold">
+                    {project["domain-name"]}
+                    <sup>
+                      <FaExternalLinkAlt className="inline-block ml-1 text-[10px]" />
+                    </sup>
+                  </h3>
+                </a>
+                <p className="text-sm text-center text-gray-500">{project.tools.join(" - ")}</p>
+
+                {/* <FaChevronDown className={`${openAcc === i ? "rotate-180" : ""} transition-all`} /> */}
               </div>
-              <div className={`${openAcc === i ? "active" : ""} overflow-hidden acc-project-desc transition-all`}>
+              {/* <div className={`${openAcc === i ? "active" : ""} overflow-hidden acc-project-desc transition-all`}>
                 <p className="mt-2">{project["web-description"]}</p>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>

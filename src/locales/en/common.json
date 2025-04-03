@@ -16,7 +16,7 @@
         "description": "I Built dynamic, responsive web applications and created seamless user experiences with efficient code.",
         "hero-btn": {
           "download": ["Download CV", "Download", "Preview"],
-          "contact": "Contact Me"
+          "project-btn": "My Projects"
         } 
       },
       "project": {

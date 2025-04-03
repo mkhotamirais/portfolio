@@ -82,9 +82,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <a href="#contact">
+              <a href="/projects">
                 <Button className="lg:px-6 lg:py-3" variant="bordered">
-                  {t("home.hero.hero-btn.contact")}
+                  {t("home.hero.hero-btn.project-btn")}
                 </Button>
               </a>
             </div>

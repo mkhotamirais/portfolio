@@ -31,9 +31,9 @@ export default function Layout({ children }: LayoutProps) {
   }, []);
 
   return (
-    <React.Fragment>
+    <div className="flex flex-col min-h-screen">
       {/* header */}
-      <header className="h-16 bg-white/80 sticky top-0 z-50 backdrop-blur">
+      <header className="h-16 bg-white/80 sticky top-0 z-50 backdrop-blur shadow-md">
         <div className="container h-full">
           <div className="flex h-full items-center justify-between">
             <Logo />
@@ -99,7 +99,7 @@ export default function Layout({ children }: LayoutProps) {
       </header>
 
       {/* main */}
-      <main>{children}</main>
+      <main className="grow">{children}</main>
 
       {/* footer */}
       <footer className="h-16 border-t">
@@ -132,6 +132,6 @@ export default function Layout({ children }: LayoutProps) {
           />
         </a>
       </div>
-    </React.Fragment>
+    </div>
   );
 }
